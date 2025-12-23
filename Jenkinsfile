@@ -15,35 +15,12 @@
 
 
 
-
-
-// pipeline {
-//     agent any // Specifies where the entire pipeline will run
-//     stages {
-//         stage('Build') {
-//             steps {
-//                 echo 'Building the application...' 
-//             }
-//         }
-//         stage('Test') {
-//             steps {
-//                 echo 'Running tests...'
-//             }
-//         }
-//         stage('Deploy') {
-//             steps {
-//                 echo 'Deploying the application...'
-//             }
-//         }
-//     }
-   
-// }
 pipeline {
     agent any
     stages {
         stage('stage1') {
             steps {
-                echo 'welcone to jenkins tutorial'
+                echo 'iam foe jenkins'
             }
         }
     }
