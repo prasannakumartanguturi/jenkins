@@ -16,14 +16,16 @@
 
 
 
-pipeline {
+pipelin {
+
     agent any
-    stages {
-        stage {
-            steps('step1') {
-                echo 'hi iam from stage 1'
+        stages {
+            stage('stage1'){
+                steps{
+                    echo 'hi buddy'
                 }
-                
             }
+
+
         }
 }
