@@ -16,16 +16,25 @@
 
 
 
-pipelin {
 
-    agent any
+pipeline {
+    agent any // Specifies where the entire pipeline will run
     stages {
-        stage('stage1'){
-            steps{
-                echo 'hi buddy'
+        stage('Build') {
+            steps {
+                echo 'Building the application...' 
             }
         }
-
-
+        stage('Test') {
+            steps {
+                echo 'Running tests...'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying the application...'
+            }
+        }
     }
+   
 }
