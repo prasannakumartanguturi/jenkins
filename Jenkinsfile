@@ -17,7 +17,7 @@ pipeline {
     angent any
         stages {
             stage('stage1'){
-                step{
+                steps{
                     echo 'hi buddy'
                 }
                 }
