@@ -20,7 +20,12 @@ pipeline {
     stages {
         stage('stage1') {
             steps {
-                echo 'iam foe jenkins'
+                echo 'iam for jenkins stage1'
+            }
+        }
+        stage('stage2') {
+            steps {
+                echo 'iam for jenkins stage2'
             }
         }
     }
