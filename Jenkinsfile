@@ -39,7 +39,7 @@
    
 // }
 pipeline {
-    agnet nay
+    agnet any
     stages {
         stage('stage1') {
             steps {
