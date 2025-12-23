@@ -14,13 +14,13 @@
 // sudo systemctl enable jenkins
 
 pipeline {
-    angent any
-        stages {
-            stage('stage1'){
-                steps{
-                    echo 'hi buddy'
-                }
-                }
+    agent any 
+    stages {
+        stage('Build') {
+            steps {
+                echo 'HI buddyBuilding the application...' 
             }
         }
+    }
+}
 
