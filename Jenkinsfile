@@ -19,13 +19,13 @@
 pipelin {
 
     agent any
-        stages {
-            stage('stage1'){
-                steps{
-                    echo 'hi buddy'
-                }
+    stages {
+        stage('stage1'){
+            steps{
+                echo 'hi buddy'
             }
-
-
         }
+
+
+    }
 }
